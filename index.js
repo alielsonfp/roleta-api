@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000; // Use a porta do ambiente ou 3000 como fallback
 
 // Middleware para permitir CORS e JSON
 app.use(cors());
