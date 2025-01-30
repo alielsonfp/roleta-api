@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/sorteio",
+      "methods": [
+        "POST"
+      ],
+      "dest": "/index.js"
+    }
+  ]
+}
